@@ -1,22 +1,52 @@
-header {
-    height: 15%;
+html {
+    height: 100%;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 0;
+}
+
+.mainHeader {
     text-align: center;
-    vertical-align: bottom;
     font-size: 30px;
     box-shadow: 1px 1px 1px gray;
+    flex: 1;
+}
+
+.mainBody {
+    display: flex;
+    flex-direction: row;
+    flex: 10;
+    
 }
 
 aside {
     width: 10%;
     background-color: darkgray;
-    height: 100%;
+    display: flex;
 }
 
-body {
-    margin: 0%;
-    height: 100%;
+.projectNameHeader {
+    height: 50%;
 }
 
-html {
-    height: 100%;
+.settingsHeader {
+    height: 50%;
 }
+
+.mainBoard {
+    width: 90%;
+    text-align: center;
+    background-color: gray;
+}
+
+
+
