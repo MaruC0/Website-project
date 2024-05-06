@@ -1,14 +1,17 @@
 .mainHeader {
-    font-size: 30px;
+    font-size: 25px;
     box-shadow: 1px 1px 1px gray;
     flex: 1;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .projectNameHeader {
     display: flex;
     flex-direction: row;
+    height: 50%;
+    align-items: center;
 }
 
 .settingsHeader {
@@ -22,12 +25,13 @@
 
 .rightHeader {
     flex: 1;
-    display: flex;
-    flex-direction: row;
 }
 
 .middleHeader {
     flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .spacer {
