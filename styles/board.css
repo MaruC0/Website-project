@@ -17,11 +17,13 @@ html {
 .mainBody {
     display: flex;
     flex-direction: row;
-    flex: 10;
+    flex: 9;
 }
 
 .mainBoard {
-    width: 90%;
     text-align: center;
-    background-color: gray;
+    background-color: rgb(228, 228, 228);
+    background-image: url("C:/Users/marco/OneDrive/Documents/projets-web/site2/images/backgroundpixel.png");
+    background-size: 9px 9px;
+    flex : 12;
 }
